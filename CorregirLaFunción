@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int addFive(int num) {
+    return num + 5;
+}
+
+int main() {
+    int numero;
+    cout<<"Ingrese un numero: ";
+    cin>>numero;
+
+    cout<<"Resultado: "<<addFive(numero);
+	cout<<"\n";
+	system("pause");
+    return 0;
+}
